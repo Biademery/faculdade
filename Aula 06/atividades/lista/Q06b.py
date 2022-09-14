@@ -1,1 +1,0 @@
-# Envie um convite para cada uma dessas pessoas. Com a mesma mensagem e nome personalizado.

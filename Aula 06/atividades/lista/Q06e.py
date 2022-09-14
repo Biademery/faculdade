@@ -1,1 +1,0 @@
-# Exiba um novo convite para cada pessoa que continua presente em sua lista.
