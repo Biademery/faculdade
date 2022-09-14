@@ -4,5 +4,5 @@ number = int(input("Digite um número: "))
 
 if number < 0:
     print("O número é negativo")
-elif number > 0:
+elif number >= 0:
     print("O número é positivo")
