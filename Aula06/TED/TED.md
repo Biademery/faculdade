@@ -1,0 +1,1 @@
+### Pesquise e explique brevemente como funciona a estrutura Swith Case e a Do While
