@@ -1,3 +1,7 @@
 # Projeto de introdução a programação
 
-Usando Python
+Exercícios das aulas de introdução a programação
+
+## 🛠 Tecnologias
+
+- Python
