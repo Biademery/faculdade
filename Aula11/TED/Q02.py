@@ -1,22 +1,19 @@
 # Q02 - Faça um algoritmo para ler um vetor de 30 números. Após isto, ler mais um número qualquer, 
 # calcular e escrever quantas vezes esse número aparece no vetor.
 
-grades = []
+from random import randint
 
-for i in range(20):
-    grades.append(float(input("Digite uma nota: ")))
+vetor = []
+quantidade = 0
 
-accumulator = 0
+for i in range(30):
+    i = randint(0, 100)
+    vetor.append(i)
 
-for grade in grades:
-    accumulator = accumulator + grades
+x = float(input("Digite um número para ver se tem no vetor: "))
 
-sum = accumulator / len(grades)
-
-counter = 0
-
-for g in grades:
-    if g > sum:
-        counter += 1
-
-print(f"{counter} foram as notas")
+for i in vetor:
+  if x == i:
+    quantidade += 1
+print(vetor)
+print(f"Quantidade de vezes que o número {x} aparece no vetor: {quantidade}")
