@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+a {
+    text-decoration: none;
+    color:#faf8f8;
+}
+
+body {
+    color: #faf8f8;
+    font-family: "Roboto", "sans-serif";
+    background-color:  gray;
+    backdrop-filter: blur(12px);
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #B52315;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header #logo {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+header #logo img {
+    border-radius: 50%;
+    padding: 10px 20px;
+    width: 100px;
+}
+
+header #logo h1 {
+    margin: auto;
+    font-size: 30px;
+}
+
+header #hamburger-button {
+    background-color: #B52315;
+    border: none;
+}
+
+main {
+    height: calc(100vh - 120px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .buttons {
+    display: flex;
+    gap: 50px;
+}
+
+main div h1 {
+    color: #504c4c;
+}
+
+main .buttons  button {
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+main #not-emergency {
+    background-color: #075770;
+    border:none;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+main #not-emergency:hover {
+    background-color: #054153;
+    transition: .5s;
+}
+
+main #emergency {
+    background-color: #B52315;
+    border:none;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+main #emergency:hover {
+    transition: .5s;
+    background-color: #92160b;
+}
+
+footer {
+    background-color: #504c4c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+footer img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+footer p {
+    margin: auto;
+}
+
+footer button {
+    background-color: #4ecb5c;
+    border: none;
+    padding: 5px;
+    border-radius: 10px; 
+    transition-duration: .5s;
+
+}
+
+footer button:hover {
+    opacity: 0.8;
+    transition: .5s;
+}
+
+footer button img{
+    width: 30px;
+}
+  
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  
+.modal-dialog {
+    display: inline-block;
+    text-align: justify;
+    vertical-align: middle;
+  }
+
+div .modal-content {
+    color: #504c4c;
+    width: 100vw;
+    padding: 20px;
+}
+
+.modal-body-emergency :nth-child(1),
+.modal-body-not-emergency :nth-child(1),
+.modal-body-hamburger :nth-child(1) {
+    padding-top: 10px;
+}
+
+div .modal-body-emergency {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.modal-body-emergency #images {
+    display: flex;
+    margin-top: 10%;
+    padding: 20px;
+    gap: 10px;
+}
+
+div .modal-body-emergency img {
+    width: 200px; 
+    height: 200px;
+}
