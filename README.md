@@ -1,7 +1,6 @@
-# Projeto de introdução a programação
-
-Exercícios das aulas de introdução a programação
+# Projetos da Faculdade
 
 ## 🛠 Tecnologias
 
 - Python
+- JavaScript
