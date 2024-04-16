@@ -1,1 +1,0 @@
-### Fez a correção das listas de atividades anteriores
