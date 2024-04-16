@@ -1,0 +1,24 @@
+.aluno-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 8px;
+    max-width: 300px;
+}
+
+.aluno-container p {
+    margin: 8px 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.aprovado {
+    color: green;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: red;
+    font-weight: bold;
+}
