@@ -16,7 +16,6 @@ export default function FormularioDeContato() {
     };
 
     const jsonToSend = JSON.stringify(objetoLiteral);
-    setSubmittedData(jsonToSend);
 
     console.log('O seguinte JSON será enviado via HTTP POST para o back-end:', jsonToSend);
   };
