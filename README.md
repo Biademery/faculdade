@@ -1,3 +1,0 @@
-# Projetos da Faculdade
-
-## 🛠 Tecnologias
