@@ -1,0 +1,23 @@
+# Ignorar as dependências do Node.js
+node_modules/
+
+# Ignorar o diretório de vídeos do Cypress
+cypress/videos/
+
+# Ignorar o diretório de screenshots do Cypress
+cypress/screenshots/
+
+# Ignorar o cache do Cypress
+.cypress/
+
+# Ignorar os arquivos de configuração do Cypress em caso de personalização
+cypress.json
+
+# Ignorar a pasta de fixtures se você não precisar versionar fixtures
+cypress/fixtures/
+
+# Ignorar arquivos de logs do Cypress
+cypress/logs/
+
+# Ignorar o diretório de cache do Cypress
+.cache/
