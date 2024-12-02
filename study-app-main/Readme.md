@@ -56,9 +56,6 @@ Abaixo está a arquitetura geral do projeto e o propósito de cada pasta/arquivo
     - Configura os provedores de contexto.
     - Gerencia as rotas de navegação (públicas e privadas).
 
-- **`package.json`**:
-  Contém as informações sobre as dependências e scripts do projeto.
-
 ---
 
 ## Dependências do Projeto
@@ -84,8 +81,6 @@ Abaixo estão as dependências utilizadas no projeto:
 - **Expo Local Authentication**: Para autenticação local (biometria).
 - **Expo Status Bar**: Para customização da barra de status.
 
-# Writing the provided content into a README.md file
-readme_content = """
 # Rotas e Navegação
 
 O projeto utiliza o **React Navigation** para gerenciamento das rotas. As rotas estão divididas em:
