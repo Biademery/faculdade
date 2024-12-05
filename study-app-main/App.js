@@ -13,6 +13,7 @@ import { TouchableOpacity } from 'react-native';
 
 const Stack = createStackNavigator();
 
+
 const AppNavigator = () => {
     const { user, loading, logout } = useContext(AuthContext);
 
