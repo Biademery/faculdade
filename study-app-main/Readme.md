@@ -58,23 +58,23 @@ Abaixo está a arquitetura geral do projeto e o propósito de cada pasta/arquivo
    
     
 ```
-├── assets/                 # Recursos estáticos como imagens e ícones
+├── assets/                
 ├── src/
-│   ├── config/            # Arquivos de configuração
-│   │   └── firebaseConfig.js  # Inicialização e config do Firebase
-│   ├── contexts/          # Provedores de Context do React
-│   │   ├── AuthContext.js     # Gerenciamento do estado de autenticação
-│   │   └── CartoesEstudoContext.js  # Gerenciamento dos cartões de estudo
-│   └── screens/           # Telas da aplicação
-│       ├── EdicaoCartaoScreen.js    # Tela de edição de cartões
-│       ├── ListaCartaoScreen.js     # Tela principal de listagem
-│       ├── LoginScreen.js           # Tela de autenticação
-│       ├── RegistroScreen.js        # Tela de Registro
-│       └── TarefasVencimentoProximoScreen.js  # Tela de tarefas próximas
-├── App.js                 # Componente Pai
+│   ├── config/           
+│   │   └── firebaseConfig.js  
+│   ├── contexts/         
+│   │   ├── AuthContext.js    
+│   │   └── CartoesEstudoContext.js 
+│   └── screens/          
+│       ├── EdicaoCartaoScreen.js   
+│       ├── ListaCartaoScreen.js    
+│       ├── LoginScreen.js          
+│       ├── RegistroScreen.js       
+│       └── TarefasVencimentoProximoScreen.js  
+├── App.js                
 ├── app.json             
-├── babel.config.js       # Configuração do Babel
-└── package.json          # Dependências do projeto
+├── babel.config.js      
+└── package.json         
 ```
 
 ---
@@ -162,3 +162,22 @@ Para executar o projeto em um emulador ou dispositivo:
 ```bash
 npm start
 ```
+
+## Autenticação
+
+O app utiliza Firebase Authentication para gerenciamento de usuários. Os usuários podem:
+- Registrar com email/senha
+- Fazer login com credenciais existentes
+- Fazer logout da aplicação
+
+## Modelo de Dados
+
+Os cartões de estudo contêm as seguintes informações:
+- Título
+- Notas
+- Status (backlog/in_progress/done)
+- Data de vencimento
+- ID do usuário (para a identificação dos cartões por usuário)
+
+Os dados são armazenados no Firebase Firestore com atualizações em tempo real.
+
