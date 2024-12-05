@@ -181,3 +181,9 @@ Os cartões de estudo contêm as seguintes informações:
 
 Os dados são armazenados no Firebase Firestore com atualizações em tempo real.
 
+## Screens
+![App Screens](assets/Screen1.png)
+![App Screens](assets/Screen2.png)
+![App Screens](assets/Screen3.png)
+![App Screens](assets/Screen4.png)
+
