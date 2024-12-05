@@ -4,26 +4,6 @@ O **Study App** é uma aplicação mobile desenvolvida em **React Native** com o
 
 ---
 
-## Estrutura do projeto
-
-├── assets/                 # Recursos estáticos como imagens e ícones
-├── src/
-│   ├── config/            # Arquivos de configuração
-│   │   └── firebaseConfig.js  # Inicialização e config do Firebase
-│   ├── contexts/          # Provedores de Context do React
-│   │   ├── AuthContext.js     # Gerenciamento do estado de autenticação
-│   │   └── CartoesEstudoContext.js  # Gerenciamento dos cartões de estudo
-│   └── screens/           # Telas da aplicação
-│       ├── EdicaoCartaoScreen.js    # Tela de edição de cartões
-│       ├── ListaCartaoScreen.js     # Tela principal de listagem
-│       ├── LoginScreen.js           # Tela de autenticação
-│       ├── RegistroScreen.js        # Tela de Registro
-│       └── TarefasVencimentoProximoScreen.js  # Tela de tarefas próximas
-├── App.js                 # Componente Pai
-├── app.json             
-├── babel.config.js       # Configuração do Babel
-└── package.json          # Dependências do projeto
-
 ## Funcionalidades Principais
 
 1. **Autenticação de Usuários**
@@ -75,6 +55,27 @@ Abaixo está a arquitetura geral do projeto e o propósito de cada pasta/arquivo
     Arquivo principal da aplicação:
     - Configura os provedores de contexto.
     - Gerencia as rotas de navegação (públicas e privadas).
+   
+    
+```
+├── assets/                 # Recursos estáticos como imagens e ícones
+├── src/
+│   ├── config/            # Arquivos de configuração
+│   │   └── firebaseConfig.js  # Inicialização e config do Firebase
+│   ├── contexts/          # Provedores de Context do React
+│   │   ├── AuthContext.js     # Gerenciamento do estado de autenticação
+│   │   └── CartoesEstudoContext.js  # Gerenciamento dos cartões de estudo
+│   └── screens/           # Telas da aplicação
+│       ├── EdicaoCartaoScreen.js    # Tela de edição de cartões
+│       ├── ListaCartaoScreen.js     # Tela principal de listagem
+│       ├── LoginScreen.js           # Tela de autenticação
+│       ├── RegistroScreen.js        # Tela de Registro
+│       └── TarefasVencimentoProximoScreen.js  # Tela de tarefas próximas
+├── App.js                 # Componente Pai
+├── app.json             
+├── babel.config.js       # Configuração do Babel
+└── package.json          # Dependências do projeto
+```
 
 ---
 
