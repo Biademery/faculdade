@@ -1,7 +1,6 @@
 # Study App
 
-O **Study App** é uma aplicação mobile desenvolvida em **React Native** com o objetivo de ajudar estudantes a organizarem suas tarefas e metas de estudo por meio de cartões personalizados. A aplicação permite criar, editar e excluir cartões, além de categorizá-los por status. Utiliza o **Firebase** para autenticação de usuários e armazenamento de dados.
-
+O **Study App** é uma aplicação móvel desenvolvida em **React Native** para gerenciamento de cartões de estudo e tarefas com integração Firebase.
 ---
 
 ## Funcionalidades Principais
